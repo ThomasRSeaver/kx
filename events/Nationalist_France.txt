@@ -19592,7 +19592,8 @@ country_event = { #Revenge!
 				ideology = paternal_autocrat 
 				long_name = GRU_vichy_france_long
 				name = GRU_vichy_france
-			}		 
+			}
+		set_capital = { state = 60 }			 
 		}
 		}
 	}
@@ -22283,8 +22284,6 @@ country_event = {
 	picture = GFX_event_NFA_second_republic_flag
 
 	is_triggered_only = yes
-
-	fire_only_once = yes
 
 	option = {
 		name = flavorfra.94.a
